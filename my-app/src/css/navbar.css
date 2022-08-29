@@ -1,0 +1,46 @@
+#nav{
+    width: 100vw;
+    height: 69px;
+    left: 0px;
+    top: -2px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+    background-color: white;
+    
+}
+
+#text{
+    margin:auto;
+    width:50%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+}
+
+#title{
+    font-size: larger;
+    font-weight: 700;
+}
+
+#account-buttons{
+    float:right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#signup{
+    height: 48px;
+    width: 74px;
+    background-color: #35A7FF; 
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
