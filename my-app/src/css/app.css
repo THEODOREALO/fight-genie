@@ -1,0 +1,32 @@
+#body{
+    margin: 15vh auto;
+    line-height: 15pt;
+    width: 50%; 
+    text-align: center;
+}
+
+b{
+    font-size: 5vh;
+    font-weight: 800;
+}
+
+p{
+    font-size: 3vh;
+}
+
+.hollow-button{
+    margin: 0 auto;
+    width: 30%;
+    padding: 15px;
+    font-size: x-large;
+    color: #35A7FF;
+    border: 2px;
+    border-style: solid;
+    border-color: #35A7FF;
+    border-radius: 8px;
+}
+img{
+    margin-top: 8vh;
+    height: 40vh;
+    width: 30vw;
+}
