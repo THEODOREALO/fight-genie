@@ -14,8 +14,7 @@ class WeightClassDropdown extends React.Component{
         return(
         <div class="dropdown">
             <button class="dropbtn">Dropdown</button>
-            
-            <img href = ''></img>
+        
             <div class="dropdown-content">
               <a href="#">Strawweight</a>
               <a href="#">Flyweight</a>
