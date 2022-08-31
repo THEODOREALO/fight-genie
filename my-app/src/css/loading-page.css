@@ -25,6 +25,11 @@ p{
     border-color: #35A7FF;
     border-radius: 8px;
 }
+
+.hollow-button:hover{
+    cursor: pointer;
+}
+
 img{
     margin-top: 8vh;
     height: 40vh;
