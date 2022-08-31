@@ -1,4 +1,5 @@
 import Navbar from "./components/navbar";
+
 import React from "react";
 import LandingPage from "./components/landing-page";
 import HomePage from "./components/home-page";
@@ -14,6 +15,7 @@ function App(){
             <Route path="/" element={<LandingPage/>} />
             <Route path="/home" element={<HomePage/>} />
           </Routes>
+
       </div>
       </Router>
       
