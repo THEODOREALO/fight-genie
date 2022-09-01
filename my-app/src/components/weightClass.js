@@ -16,15 +16,15 @@ class WeightClassDropdown extends React.Component{
             <button class="dropbtn">Dropdown</button>
         
             <div class="dropdown-content">
-              <a href="#">Strawweight</a>
-              <a href="#">Flyweight</a>
-              <a href="#">Bantamweight</a>
-              <a href="#">Featherweight</a>
-              <a href="#">Lightweight</a>
-              <a href="#">Welterweight</a>
-              <a href="#">Middleweight</a>
-              <a href="#">Light Heavyweight</a>
-              <a href="#">Heavyweight</a>
+              <p>Strawweight</p>
+              <p>Flyweight</p>
+              <p>Bantamweight</p>
+              <p>Featherweight</p>
+              <p>Lightweight</p>
+              <p>Welterweight</p>
+              <p>Middleweight</p>
+              <p>Light Heavyweight</p>
+              <p>Heavyweight</p>
             </div>
         </div>
         );

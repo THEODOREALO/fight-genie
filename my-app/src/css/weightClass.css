@@ -36,15 +36,16 @@
   }
   
   /* Links inside the dropdown */
-  .dropdown-content a {
+  .dropdown-content p {
     color: lightskyblue;
-    padding: 12px 16px;
+    padding: 10px;
     text-decoration: none;
     display: block;
+    font-size: 2vh;
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content p:hover {background-color: #ddd; cursor: pointer;}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
