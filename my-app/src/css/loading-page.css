@@ -1,6 +1,6 @@
 #body{
-    margin: 15vh auto;
-    line-height: 15pt;
+    margin: 10vh auto;
+    
     width: 50%; 
     text-align: center;
 }
@@ -34,4 +34,29 @@ img{
     margin-top: 8vh;
     height: 40vh;
     width: 30vw;
+    z-index: 1;
+    border-radius: 8px;
+    position: relative;
+}
+
+.blue{
+    height: 40vh;
+    width: 30vw;
+    background-color:#35A7FF;
+    border-color: #35A7FF;
+    border-radius: 8px;
+    transform: translate(10.5vw, -80vh);
+    position: relative;
+    z-index: -1;
+}
+
+.gray{
+    height: 40vh;
+    width: 30vw;
+    background-color: #E6E6E6;
+    border-color: #E6E6E6;
+    border-radius: 8px;
+    transform: translate(9vw, -43vh);
+    position: relative;
+    z-index: -2;
 }

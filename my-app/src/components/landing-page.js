@@ -17,6 +17,8 @@ function LandingPage(){
         >
         </img>
         </a>
+        <div className='gray'></div>
+        <div className='blue'></div>
     </div>
     );
     
