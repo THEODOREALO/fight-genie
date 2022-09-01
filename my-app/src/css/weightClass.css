@@ -38,10 +38,9 @@
   /* Links inside the dropdown */
   .dropdown-content p {
     color: lightskyblue;
-    padding: 10px;
     text-decoration: none;
     display: block;
-    font-size: 2vh;
+    font-size: 1.7vh;
   }
   
   /* Change color of dropdown links on hover */

@@ -1,5 +1,6 @@
 import React from 'react';
-import WeightClass from './weightClass.js'
+import WeightClass from './weightClass.js';
+import '../css/home-page.css'
 //Replace "Template" with the name of your component
 class HomePage extends React.Component{
     //Place any instance variables here; if no instance variables, constructor can be removed
@@ -11,7 +12,11 @@ class HomePage extends React.Component{
     //Place all html to return here
     render(){
         return(
-            <WeightClass></WeightClass>
+            <div id='body'>
+                <b>Select a weight class and 2 fighters</b>
+                <WeightClass></WeightClass>
+            </div>
+            
         );
     };
 }

@@ -12,10 +12,10 @@ class WeightClassDropdown extends React.Component{
     
     render(){
         return(
-        <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
+        <div className="dropdown">
+            <button className="dropbtn">Dropdown</button>
         
-            <div class="dropdown-content">
+            <div className="dropdown-content">
               <p>Strawweight</p>
               <p>Flyweight</p>
               <p>Bantamweight</p>
