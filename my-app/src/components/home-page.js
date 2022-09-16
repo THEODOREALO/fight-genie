@@ -6,9 +6,9 @@ class HomePage extends React.Component{
     //Place any instance variables here; if no instance variables, constructor can be removed
     constructor(props){
         super(props);
-        this.weightClasses = ["Strawweight"];
+        this.weightClasses = ["Strawweight", "Flyweight", "Bantamweight", "Featherweight", "Lightweight",
+                              "Welterweight", "Middleweight", "Light-Heavyweight", "Heavyweight"];
     };
-
     //Place all html to return here
     render(){
         return(
@@ -16,6 +16,7 @@ class HomePage extends React.Component{
                 <b>Select a weight class and 2 fighters</b>
                 <Dropdown
                 items={this.weightClasses}
+                name="Weight Class"
                 ></Dropdown>
             </div>
             
