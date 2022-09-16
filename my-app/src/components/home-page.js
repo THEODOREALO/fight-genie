@@ -1,12 +1,12 @@
 import React from 'react';
-import WeightClass from './weightClass.js';
+import Dropdown from './dropdown.js';
 import '../css/home-page.css'
 //Replace "Template" with the name of your component
 class HomePage extends React.Component{
     //Place any instance variables here; if no instance variables, constructor can be removed
     constructor(props){
         super(props);
-        this.someInstanceVariable = 0;
+        this.weightClasses = ["Strawweight"];
     };
 
     //Place all html to return here
@@ -14,7 +14,9 @@ class HomePage extends React.Component{
         return(
             <div id='body'>
                 <b>Select a weight class and 2 fighters</b>
-                <WeightClass></WeightClass>
+                <Dropdown
+                items={this.weightClasses}
+                ></Dropdown>
             </div>
             
         );

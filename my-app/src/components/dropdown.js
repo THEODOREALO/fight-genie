@@ -1,11 +1,11 @@
 import React from 'react';
-import '../css/weightClass.css';
+import '../css/dropdown.css';
 //Replace "Template" with the name of your component
-class WeightClassDropdown extends React.Component{
+class Dropdown extends React.Component{
     //Place any instance variables here; if no instance variables, constructor can be removed
     constructor(props){
         super(props);
-        this.someInstanceVariable = 0;
+        this.items = props.items;
     };
 
     //Place all html to return here
@@ -14,17 +14,8 @@ class WeightClassDropdown extends React.Component{
         return(
         <div className="dropdown">
             <button className="dropbtn">Dropdown</button>
-        
             <div className="dropdown-content">
-              <p>Strawweight</p>
-              <p>Flyweight</p>
-              <p>Bantamweight</p>
-              <p>Featherweight</p>
-              <p>Lightweight</p>
-              <p>Welterweight</p>
-              <p>Middleweight</p>
-              <p>Light Heavyweight</p>
-              <p>Heavyweight</p>
+                {this.items.map(item => <p key={item}>{item}</p>)}
             </div>
         </div>
         );
@@ -32,4 +23,4 @@ class WeightClassDropdown extends React.Component{
 }
 
 //Make sure to replace "Template" with the same name of your component above
-export default WeightClassDropdown;
+export default Dropdown;
